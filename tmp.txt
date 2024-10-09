@@ -1,0 +1,134 @@
+<section class="hero is-light is-small">
+  <div class="hero-body has-text-centered">
+  <h1 class="title is-1 mathvista_other">
+    <span class="mathvista_other" style="vertical-align: middle">Benchmark</span>
+  </h1>
+  </div>
+</section>
+            
+<section class="section">
+  <div class="container">
+    <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths" style="width: 100%;">
+        <h2 class="title is-3">Data Examples</h2>
+        <div class="content has-text-justified">
+          <p style="text-align: center;" class="mt-3"><strong>All data are newly collected and annotated by humans, not from any existing video dataset.</strong>
+          </p>
+        <div id="results-carousel" class="carousel results-carousel">  
+            <div class="content has-text-centered">
+              <img src="static/images/highlight_video/VFntoBRGF1A.png" style="width: 95%;"/>
+              <p style="margin-bottom: 30px;">🔗 Full Video Link:&nbsp;&nbsp;<a href="https://www.youtube.com/watch?v=VFntoBRGF1A">https://www.youtube.com/watch?v=VFntoBRGF1A</a></p>
+              <!-- <p style="margin-bottom: 30px;">🔗<a href="https://www.youtube.com/watch?v=VFntoBRGF1A">Full Video Link</a></p> -->
+            </div>
+            <div class="content has-text-centered">
+              <img src="static/images/highlight_video/p84O3JAp_IM.png" style="width: 95%;"/>
+              <p style="margin-bottom: 30px;">🔗 Full Video Link:&nbsp;&nbsp;<a href="https://www.youtube.com/watch?v=p84O3JAp_IM">https://www.youtube.com/watch?v=p84O3JAp_IM</a></p>
+            </div>
+            <div class="content has-text-centered">
+              <img src="static/images/highlight_video/AF8d72mA41M.png" style="width: 95%;"/>
+              <p style="margin-bottom: 30px;">🔗 Full Video Link:&nbsp;&nbsp;<a href="https://www.youtube.com/watch?v=AF8d72mA41M">https://www.youtube.com/watch?v=AF8d72mA41M</a></p>
+            </div>
+            <div class="content has-text-centered">
+              <img src="static/images/highlight_video/pwVJizpCuDQ.png" style="width: 95%;"/>
+              <p style="margin-bottom: 30px;">🔗 Full Video Link:&nbsp;&nbsp;<a href="https://www.youtube.com/watch?v=pwVJizpCuDQ">https://www.youtube.com/watch?v=pwVJizpCuDQ</a></p>
+            </div>
+        <!-- </div> -->
+        </div>
+      </div> 
+        </div>
+      </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <div class="columns is-centered">
+      <div class="column">
+        <div class="content has-text-centered">
+          <h2 class="title is-3" style="margin-top: 30px;">Benchmark Statistics</h2>
+          <!-- bing tu -->
+          <div class="container-wrapper">
+            <div id="container"></div>
+            <div id="image-container">
+              <img src="static/images/data_sta_2.png" alt="data-composition" style="max-width: 60%; display: inline-block; margin-right: 200px;"/>
+            </div>
+          </div>
+        <script type="text/javascript" src="https://registry.npmmirror.com/echarts/5.5.0/files/dist/echarts.min.js"></script>
+        <script type="text/javascript" src="static/js/bingtu.js"></script>
+        <p style="text-align: center; margin-left: auto; margin-right: auto; width: 50%;"> 
+            (Left) <strong>Video Categorie Hierarchy</strong>: Video-MME consists of 6 key domains and 30 subcategories of video types. <br> (Right) <strong>Video Duration and Task Type Distributions</strong>: Video-MME spans a full spectrum of video lengths and assesses various core abilities of MLLMs.<br/>
+        </p>
+        </div>
+      </div>
+    </div>
+    <div class="columns is-centered">
+      <div class="column">
+        <div class="content has-text-centered">
+          <h2 class="title is-3">Benchmark Comparison</h2>
+          <img src="static/images/dataset_cl.jpg" alt="data-composition" style="max-width: 30%;"/>
+          <p style="text-align: center; margin-left: auto; margin-right: auto; width: 50%;" >
+            Analysis of Certificate Length in seconds. Avg. V.L.: average video length, Med. C.L.: median certificate length, Avg. C.L.: average certificate length.
+          </p>
+          <img src="static/images/dataset_comparison.png" alt="data-composition" style="max-width: 50%;"/>
+          <p style="text-align: center; margin-left: auto; margin-right: auto; width: 50%;" >
+            The comparison of various benchmarks encompasses several key aspects: 
+                the total number of videos, the number of clips, the average duration of the videos, the method of video annotation (manual denoted as M, automated as A), 
+                the average number of QA pair tokens, the average number of subtitle tokens, whether the videos cover multiple duration levels, 
+                whether the videos are sourced from a broad range of open domains, and whether provide subtitle together with audio information. 
+                It is important to note that if a dataset includes multiple task formats, our comparison focuses solely on the multiple-choice segment.
+          </p>
+        <!-- </div> -->
+      </div>
+    </div>
+    
+  </div>
+</section>
+
+<!-- RESULTS SECTION -->
+<section class="hero is-light is-small">
+  <div class="hero-body has-text-centered">
+    <h1 class="title is-1 mathvista_other">Experiment Results</h1>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="columns is-centered m-6">
+      <div class="column is-full has-text-centered content">
+        <h2 class="title is-3">Different Question Types</h2>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="static/images/exp_results/results_of_question_types_0616.png" alt="grade-lv" width="50%"/>
+              <p>Evaluation results of four representative MLLMs.</p>
+            </div>
+          </div>
+      </div>
+    </div>
+    <div class="columns is-centered m-6">
+      <div class="column is-full has-text-centered content">
+        <h2 class="title is-3">Different Video Duration Types</h2>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="static/images/exp_results/results_of_video_types.png" alt="" width="80%"/>
+              <p>Evaluation results of Gemini 1.5 Pro.</p>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div id="results-carousel" class="carousel results-carousel">  
+              <div class="content has-text-centered">
+                <img src="static/images/exp_results/results_of_video_sub_types-1.jpg" alt="" width="70%"/>
+                <p style="margin-bottom: 30px;">(1) Evaluation results of Gemini 1.5 Pro across different video subcategories.</p>
+              </div>
+              <div class="content has-text-centered">
+                <img src="static/images/exp_results/results_of_video_sub_types-2.jpg" alt="" width="70%"/>
+                <p style="margin-bottom: 30px;">(2) Evaluation results of Gemini 1.5 Pro across different video subcategories.</p>
+              </div>
+              <div class="content has-text-centered">
+                <img src="static/images/exp_results/results_of_video_sub_types-3.jpg" alt="" width="70%"/>
+                <p style="margin-bottom: 30px;">(3) Evaluation results of Gemini 1.5 Pro across different video subcategories.</p>
+              </div>
+            </div>
+          </div>
+      </div>
+    </div>
+  </div>
+</section>
