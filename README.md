@@ -24,7 +24,7 @@
 [Link](https://hanghuacs.github.io/MMComposition/#leaderboard)
 
 ## 📉 Statistics
-
+[Link](https://hanghuacs.github.io/MMComposition/#benchmark)
 
 ## ✏️ Citation
 ```bibtex
