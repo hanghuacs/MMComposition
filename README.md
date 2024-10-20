@@ -21,6 +21,7 @@
 ## Getting Started
 
 ## 🏆 Leaderboard
+[Link](https://hanghuacs.github.io/MMComposition/#leaderboard)
 
 ## 📉 Statistics
 
